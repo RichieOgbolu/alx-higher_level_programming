@@ -5,5 +5,5 @@ def no_c(my_string):
     for i in a:
         if i == 'c' or i == 'C':
             a.remove(i)
-    b = ' '.join(a)
+    b = "".join(a)
     return b
