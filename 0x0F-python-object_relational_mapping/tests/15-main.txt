@@ -1,0 +1,9 @@
+$ cat 100-relationship_states_cities.sql | mysql -uroot -p
+
+$ ./100-relationship_states_cities.py root root hbtn_0e_100_usa
+$ cat 100-relationship_states_cities.sql | mysql -uroot -p
+Enter password: 
+id  name
+1   California
+id  name    state_id
+1   San Francisco   1
